@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+          .content-auto {
+            content-visibility: auto;
+          }
+        }
+      </style>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+      <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+</head>
+<body>
+    <div class="parent d-grid">
+        
+        <header>
+
+        </header>
+
+        <aside>
+
+        </aside>
+
+        <div class="content">
+
+        </div>
+
+        <footer>
+
+        </footer>
+
+        <div class="d-grid text-[100px] text-red-500">
+            <p>Good morning</p>
+    
+
+        </div>
+    </div>
+
+    
+</body>
+</html>

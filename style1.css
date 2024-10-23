@@ -1,0 +1,39 @@
+.parent{
+  
+    grid-auto-rows: 33,3%;
+    grid-auto-columns: 50%;
+    /*grid-template-areas: 
+    "header header"
+    "aside content"
+    "footer footer";
+    /*grid-template-columns: 700px 700px;
+    /* grid-template-rows:200px 200px 200px; */
+    width: 100%;
+    height: 500px;
+}
+
+header{
+    grid-area: 1 / 1 / 2 / 3; /*nampilin headernya diatas mulai dari1 itu baris pertama 1 koordinat mulainya  2 itu akhir dari barisnya 3 berakhir di kolom ketiga*/
+    background-color: rgb(254, 241, 216);
+}
+
+aside{
+    grid-area: 2 / 1 / 3 /2;  /*dimulai baris 2 kolom 1 diakhir baris 3 di kolom 2*/ 
+    background-color: rgb(242, 131, 100);
+}
+
+.content{
+    grid-area: 2 / 2 / 3 / 3; /*dimulai dari baris 2 kolom 2 diakhir baris 3 di kolom 3*/
+    background-color: rgb(99, 243, 223);
+}
+
+footer{
+    grid-area: 3/ 1 / 4 / 3; /*dimulai dari baris 3 kolom 1 diakhiri baris 4 kolom 3*/
+    background-color: rgb(202, 50, 50);
+}
+
+.d-grid{
+    display: grid;
+}
+
+
